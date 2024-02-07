@@ -7,7 +7,7 @@ Created on Tue May 26 22:19:21 2020
 
 
     
-ass_close = ["bye","close","take rest","bhai"]
+ass_close = ["bye","close","take rest"]
 
 
 ass_read = ["ok","wake","are you","ok jarvis"]
