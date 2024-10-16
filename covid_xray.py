@@ -34,7 +34,7 @@ def deep_network(path):
         ass1.speak("analysing....")
         print(path)
         image = cv2.imread(path)
-        image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+        image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
         image = cv2.resize(image, (224, 224))
         ass1.engine_rate(150)
         ass1.speak("hmmmmhmmm hmmm")
